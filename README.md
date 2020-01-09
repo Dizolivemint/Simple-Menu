@@ -1,1 +1,3 @@
-# Simple-Menu
+# Simple Menu
+
+Vanilla Javascript Responsive Menu
