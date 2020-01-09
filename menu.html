@@ -169,10 +169,8 @@
 </div>
 <script>
     (function () {
-        var navList = document.getElementsByClassName('navigation__list')[0];
         var navParent = document.getElementsByClassName('parent')[0];
         var navChild = document.getElementsByClassName('navigation__drop')[0];
-        var navMobile = document.getElementsByClassName('navigation__mobile')[0];
         if (window.innerWidth > 1092) {
             navParent.addEventListener('mouseover', function() {
                 navChild.classList.remove('hidden');
